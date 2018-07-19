@@ -1,0 +1,39 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "Simple calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TngSam/calculator.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Samir Amirseidov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TngSam/calculator/issues"
+  },
+  "homepage": "https://github.com/TngSam/calculator#readme",
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "ts-loader": "^4.4.2",
+    "tslint": "^5.11.0",
+    "tslint-webpack-plugin": "^1.2.2",
+    "typescript": "^2.9.2",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
