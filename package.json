@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/TngSam/calculator#readme",
   "devDependencies": {
+    "@types/jest": "^23.3.0",
     "css-loader": "^1.0.0",
     "file-loader": "^1.1.11",
     "html-webpack-plugin": "^3.2.0",
@@ -30,6 +31,7 @@
     "node-sass": "^4.9.2",
     "sass-loader": "^7.0.3",
     "style-loader": "^0.21.0",
+    "ts-jest": "^23.0.1",
     "ts-loader": "^4.4.2",
     "tslint": "^5.11.0",
     "tslint-webpack-plugin": "^1.2.2",
