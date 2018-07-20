@@ -4,9 +4,8 @@
   "description": "Simple calculator",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev": "webpack-dev-server",
-    "test": "jest"
+    "test": "jest",
+    "start:dev": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
