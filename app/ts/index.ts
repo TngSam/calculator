@@ -58,12 +58,11 @@ import Calculator from "./calculator.ts";
 			if (value.indexOf(".") === -1) {
 				value += ".";
 				$firstValue.text(value);
-			}			
+			}
 		});
 		$(".button").click((e: any) => {
 			const id: string = $(e.currentTarget).attr("id");
-			if (id === "equal" || 
-				(calculator[id] && (value !== "" || calculator.sum !== 0))) {
+			if (id === "equal" || (calculator[id] && (value !== "" || calculator.sum !== 0))) {
 				if (value.indexOf(".") !== -1) {
 					value = parseFloat(value);
 				} else {
@@ -78,7 +77,7 @@ import Calculator from "./calculator.ts";
 					value = "";
 				} else if ((calculator[op.name].length === 0 && value === "")
 							|| value !== "") {
-					calculator[op.name](value)
+					calculator[op.name](value);
 					value = "";
 					op = {
 						name: "",
