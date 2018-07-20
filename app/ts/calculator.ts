@@ -3,29 +3,37 @@ class Calculator {
 	constructor() {
 		this.sum = 0;
 	}
-	public plus(value: number): void {
+	public plus(value: number): Calculator {
 		this.sum += value;
+		return this;
 	}
-	public minus(value: number): void {
+	public minus(value: number): Calculator {
 		this.sum -= value;
+		return this;
 	}
-	public divide(value: number): void {
+	public divide(value: number): Calculator {
 		this.sum /= value;
+		return this;
 	}
-	public multiply(value: number): void {
+	public multiply(value: number): Calculator {
 		this.sum *= value;
+		return this;
 	}
-	public percent(value: number): void {
+	public percent(value: number): Calculator {
 		this.sum %= value;
+		return this;
 	}
-	public reciproc(): void {
+	public reciproc(): Calculator {
 		this.sum = 1 / this.sum;
+		return this;
 	}
-	public sqrt(): void {
+	public sqrt(): Calculator {
 		this.sum = Math.sqrt(this.sum);
+		return this;
 	}
-	public sign(): void {
+	public sign(): Calculator {
 		this.sum = -(this.sum);
+		return this;
 	}
 }
 
